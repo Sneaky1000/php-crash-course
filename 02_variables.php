@@ -21,6 +21,9 @@
 - variables can't start with a number
 - Variables can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 - Variables are case-sensitive ($name and $NAME are two different variables)
+- Variables by default have a limited scope (If a variable is created inside a function, it
+  won't be usable outside the function and vice versa—use "global" before the variable to
+  make a variable global)
 */
 
 $name = 'Chase'; // String // Can be single or double quotes
